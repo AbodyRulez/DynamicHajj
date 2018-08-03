@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50517222113649F0002EF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50517212113649F0002EF8B /* AppDelegate.swift */; };
+		F50517242113649F0002EF8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50517232113649F0002EF8B /* ViewController.swift */; };
+		F50517272113649F0002EF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50517252113649F0002EF8B /* Main.storyboard */; };
+		F505172A2113649F0002EF8B /* Hajj_Dynamics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F50517282113649F0002EF8B /* Hajj_Dynamics.xcdatamodeld */; };
+		F505172C211364A60002EF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F505172B211364A60002EF8B /* Assets.xcassets */; };
+		F505172F211364A70002EF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F505172D211364A70002EF8B /* LaunchScreen.storyboard */; };
+		F5DBC40C2113674500653254 /* VirtualContentUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC40B2113674500653254 /* VirtualContentUpdater.swift */; };
+		F5DBC40E2113675100653254 /* VirtualFaceContent in Resources */ = {isa = PBXBuildFile; fileRef = F5DBC40D2113675000653254 /* VirtualFaceContent */; };
+		F5DBC4122113676F00653254 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DBC4112113676F00653254 /* Models.scnassets */; };
+		F5DBC4132113684700653254 /* VirtualFaceContent in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC40D2113675000653254 /* VirtualFaceContent */; };
+		F5DBC4172113686B00653254 /* ContentSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC4152113686B00653254 /* ContentSelectionController.swift */; };
+		F5DBC4182113686B00653254 /* VirtualContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC4162113686B00653254 /* VirtualContentType.swift */; };
+		F5DBC41E2113689400653254 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC41A2113689400653254 /* Mask.swift */; };
+		F5DBC41F2113689400653254 /* RobotHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC41B2113689400653254 /* RobotHead.swift */; };
+		F5DBC4202113689400653254 /* GlassesOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC41C2113689400653254 /* GlassesOverlay.swift */; };
+		F5DBC4212113689400653254 /* VirtualFaceContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC41D2113689400653254 /* VirtualFaceContent.swift */; };
+		F5DBC42421136BAF00653254 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC42321136BAF00653254 /* StatusViewController.swift */; };
+		F5DBC4262113971200653254 /* Mecca.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F5DBC4252113971200653254 /* Mecca.gpx */; };
+		F5DBC4282113EF9F00653254 /* PatientHealthRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBC4272113EF9F00653254 /* PatientHealthRecord.swift */; };
+		F94920D069007823E759A5EB /* Pods_Hajj_Dynamics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F377F6C3403F6FB6ABF78E2 /* Pods_Hajj_Dynamics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F377F6C3403F6FB6ABF78E2 /* Pods_Hajj_Dynamics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hajj_Dynamics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F960156C29DD1D5C8BBCF5 /* Pods-Hajj Dynamics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj Dynamics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj Dynamics/Pods-Hajj Dynamics.debug.xcconfig"; sourceTree = "<group>"; };
+		D6AA7DF58726947AD1CE7CAD /* Pods-Hajj Dynamics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hajj Dynamics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hajj Dynamics/Pods-Hajj Dynamics.release.xcconfig"; sourceTree = "<group>"; };
+		F505171E2113649F0002EF8B /* Hajj Dynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hajj Dynamics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50517212113649F0002EF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F50517232113649F0002EF8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F50517262113649F0002EF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F50517292113649F0002EF8B /* Hajj_Dynamics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hajj_Dynamics.xcdatamodel; sourceTree = "<group>"; };
+		F505172B211364A60002EF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F505172E211364A70002EF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5051730211364A70002EF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DBC40B2113674500653254 /* VirtualContentUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualContentUpdater.swift; sourceTree = "<group>"; };
+		F5DBC40D2113675000653254 /* VirtualFaceContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VirtualFaceContent; sourceTree = "<group>"; };
+		F5DBC4112113676F00653254 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		F5DBC4152113686B00653254 /* ContentSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentSelectionController.swift; sourceTree = "<group>"; };
+		F5DBC4162113686B00653254 /* VirtualContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualContentType.swift; sourceTree = "<group>"; };
+		F5DBC41A2113689400653254 /* Mask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		F5DBC41B2113689400653254 /* RobotHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotHead.swift; sourceTree = "<group>"; };
+		F5DBC41C2113689400653254 /* GlassesOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassesOverlay.swift; sourceTree = "<group>"; };
+		F5DBC41D2113689400653254 /* VirtualFaceContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualFaceContent.swift; sourceTree = "<group>"; };
+		F5DBC42321136BAF00653254 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		F5DBC4252113971200653254 /* Mecca.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Mecca.gpx; sourceTree = "<group>"; };
+		F5DBC4272113EF9F00653254 /* PatientHealthRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHealthRecord.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F505171B2113649F0002EF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94920D069007823E759A5EB /* Pods_Hajj_Dynamics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063BC8978C9788BD557EC4FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F377F6C3403F6FB6ABF78E2 /* Pods_Hajj_Dynamics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CD6E86D1D78DAB10E5D8194 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43F960156C29DD1D5C8BBCF5 /* Pods-Hajj Dynamics.debug.xcconfig */,
+				D6AA7DF58726947AD1CE7CAD /* Pods-Hajj Dynamics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F50517152113649F0002EF8B = {
+			isa = PBXGroup;
+			children = (
+				F50517202113649F0002EF8B /* Hajj Dynamics */,
+				F505171F2113649F0002EF8B /* Products */,
+				7CD6E86D1D78DAB10E5D8194 /* Pods */,
+				063BC8978C9788BD557EC4FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F505171F2113649F0002EF8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F505171E2113649F0002EF8B /* Hajj Dynamics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50517202113649F0002EF8B /* Hajj Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				F50517212113649F0002EF8B /* AppDelegate.swift */,
+				F50517232113649F0002EF8B /* ViewController.swift */,
+				F5DBC4252113971200653254 /* Mecca.gpx */,
+				F5DBC40B2113674500653254 /* VirtualContentUpdater.swift */,
+				F5DBC41C2113689400653254 /* GlassesOverlay.swift */,
+				F5DBC42321136BAF00653254 /* StatusViewController.swift */,
+				F5DBC4222113689800653254 /* Virtual Face Content */,
+				F5DBC41A2113689400653254 /* Mask.swift */,
+				F5DBC41B2113689400653254 /* RobotHead.swift */,
+				F5DBC41D2113689400653254 /* VirtualFaceContent.swift */,
+				F5DBC40D2113675000653254 /* VirtualFaceContent */,
+				F50517252113649F0002EF8B /* Main.storyboard */,
+				F5DBC4272113EF9F00653254 /* PatientHealthRecord.swift */,
+				F5DBC4192113687A00653254 /* Content Selection */,
+				F505172B211364A60002EF8B /* Assets.xcassets */,
+				F5DBC4112113676F00653254 /* Models.scnassets */,
+				F505172D211364A70002EF8B /* LaunchScreen.storyboard */,
+				F5051730211364A70002EF8B /* Info.plist */,
+				F50517282113649F0002EF8B /* Hajj_Dynamics.xcdatamodeld */,
+			);
+			path = "Hajj Dynamics";
+			sourceTree = "<group>";
+		};
+		F5DBC4192113687A00653254 /* Content Selection */ = {
+			isa = PBXGroup;
+			children = (
+				F5DBC4162113686B00653254 /* VirtualContentType.swift */,
+				F5DBC4152113686B00653254 /* ContentSelectionController.swift */,
+			);
+			path = "Content Selection";
+			sourceTree = "<group>";
+		};
+		F5DBC4222113689800653254 /* Virtual Face Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Virtual Face Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F505171D2113649F0002EF8B /* Hajj Dynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5051733211364A70002EF8B /* Build configuration list for PBXNativeTarget "Hajj Dynamics" */;
+			buildPhases = (
+				5EA6187E60AEBAC22930D93D /* [CP] Check Pods Manifest.lock */,
+				F505171A2113649F0002EF8B /* Sources */,
+				F505171B2113649F0002EF8B /* Frameworks */,
+				F505171C2113649F0002EF8B /* Resources */,
+				8AF6887B8DEB0D52C266510A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hajj Dynamics";
+			productName = "Hajj Dynamics";
+			productReference = F505171E2113649F0002EF8B /* Hajj Dynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50517162113649F0002EF8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Essa AlOwayyid";
+				TargetAttributes = {
+					F505171D2113649F0002EF8B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F50517192113649F0002EF8B /* Build configuration list for PBXProject "Hajj Dynamics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50517152113649F0002EF8B;
+			productRefGroup = F505171F2113649F0002EF8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F505171D2113649F0002EF8B /* Hajj Dynamics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F505171C2113649F0002EF8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505172F211364A70002EF8B /* LaunchScreen.storyboard in Resources */,
+				F5DBC4262113971200653254 /* Mecca.gpx in Resources */,
+				F505172C211364A60002EF8B /* Assets.xcassets in Resources */,
+				F50517272113649F0002EF8B /* Main.storyboard in Resources */,
+				F5DBC4122113676F00653254 /* Models.scnassets in Resources */,
+				F5DBC40E2113675100653254 /* VirtualFaceContent in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EA6187E60AEBAC22930D93D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hajj Dynamics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AF6887B8DEB0D52C266510A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hajj Dynamics/Pods-Hajj Dynamics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hajj Dynamics/Pods-Hajj Dynamics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F505171A2113649F0002EF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DBC41F2113689400653254 /* RobotHead.swift in Sources */,
+				F5DBC4132113684700653254 /* VirtualFaceContent in Sources */,
+				F5DBC41E2113689400653254 /* Mask.swift in Sources */,
+				F50517242113649F0002EF8B /* ViewController.swift in Sources */,
+				F5DBC42421136BAF00653254 /* StatusViewController.swift in Sources */,
+				F5DBC4212113689400653254 /* VirtualFaceContent.swift in Sources */,
+				F5DBC40C2113674500653254 /* VirtualContentUpdater.swift in Sources */,
+				F50517222113649F0002EF8B /* AppDelegate.swift in Sources */,
+				F5DBC4282113EF9F00653254 /* PatientHealthRecord.swift in Sources */,
+				F5DBC4172113686B00653254 /* ContentSelectionController.swift in Sources */,
+				F5DBC4202113689400653254 /* GlassesOverlay.swift in Sources */,
+				F505172A2113649F0002EF8B /* Hajj_Dynamics.xcdatamodeld in Sources */,
+				F5DBC4182113686B00653254 /* VirtualContentType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F50517252113649F0002EF8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50517262113649F0002EF8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F505172D211364A70002EF8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F505172E211364A70002EF8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5051731211364A70002EF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5051732211364A70002EF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5051734211364A70002EF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F960156C29DD1D5C8BBCF5 /* Pods-Hajj Dynamics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QV2Q73QXYB;
+				INFOPLIST_FILE = "Hajj Dynamics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RSO.Hajj-Dynamics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5051735211364A70002EF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AA7DF58726947AD1CE7CAD /* Pods-Hajj Dynamics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QV2Q73QXYB;
+				INFOPLIST_FILE = "Hajj Dynamics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RSO.Hajj-Dynamics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50517192113649F0002EF8B /* Build configuration list for PBXProject "Hajj Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5051731211364A70002EF8B /* Debug */,
+				F5051732211364A70002EF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5051733211364A70002EF8B /* Build configuration list for PBXNativeTarget "Hajj Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5051734211364A70002EF8B /* Debug */,
+				F5051735211364A70002EF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F50517282113649F0002EF8B /* Hajj_Dynamics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F50517292113649F0002EF8B /* Hajj_Dynamics.xcdatamodel */,
+			);
+			currentVersion = F50517292113649F0002EF8B /* Hajj_Dynamics.xcdatamodel */;
+			path = Hajj_Dynamics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F50517162113649F0002EF8B /* Project object */;
+}
